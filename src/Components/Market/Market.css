@@ -1,0 +1,71 @@
+/* .market {
+  display: flex;
+  justify-content: space-evenly !important;
+} */
+.market {
+  display: flex;
+  flex-wrap: wrap;
+}
+.market .left {
+  margin-right: 5px;
+  width: 65% !important;
+}
+.market .right {
+  display: flex;
+  width: 34% !important;
+}
+.market .right .right-1 {
+  margin-right: 7px;
+  width: 50%;
+}
+.market .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.market .bottom .b-left {
+  width: 82.3%;
+}
+.market .bottom .b-right {
+  width: 17.2%;
+}
+@media only screen and (max-width: 991px) {
+  .market .left {
+    width: 100% !important;
+  }
+  .market .right {
+    width: 100% !important;
+  }
+  .market .right .right-2 {
+    width: 50%;
+  }
+  .market .bottom .b-left {
+    width: 75%;
+  }
+  .market .bottom .b-right {
+    width: 24.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .market .bottom {
+    flex-direction: column;
+    width: 100%;
+  }
+  .market .bottom .b-left {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .market .bottom .b-right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .market .right {
+    flex-direction: column;
+  }
+  .market .right .right-1 {
+    width: 100%;
+  }
+  .market .right .right-2 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,127 @@
+.trade-tab {
+  min-height: 50vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.trade-tab > * {
+  margin-bottom: 10px;
+}
+.trade-tab .nav {
+  margin-top: 10px;
+}
+.trade-tab .dropdown,
+.trade-tab .check-d .dropdown {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 243, 243);
+  height: 25px;
+  border-radius: 3px;
+  font-size: 6px !important;
+}
+.trade-tab form,
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+form .form-group {
+  margin-bottom: 10px;
+  width: 100% !important;
+}
+form .label {
+  color: lightgrey;
+  font-size: 11px;
+}
+form .label span {
+  color: black;
+}
+.trade-tab form input {
+  width: 100%;
+  background-color: rgb(247, 243, 243);
+  outline: none;
+  border: none;
+  height: 25px;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 11px;
+}
+.trade-tab form input::placeholder {
+  color: black;
+}
+.trade-tab .progress {
+  width: 90%;
+  background-color: rgb(157, 238, 157);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.trade-tab .p-rice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-size: 10px;
+}
+.trade-tab .check-d {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  font-size: 11px;
+}
+.trade-tab .check-d span {
+  display: flex;
+}
+.trade-tab .check-d input {
+  margin-right: 5px;
+  border: 1px solid lightgreen;
+}
+.trade-tab .check-d .dropdown {
+  width: 30%;
+  font-size: 8px;
+}
+.trade-tab .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.trade-tab .buttons button {
+  width: 45%;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  height: 30px;
+}
+.trade-tab .buttons .green {
+  background-color: rgb(82, 243, 82);
+}
+.trade-tab .buttons .red {
+  background-color: rgb(238, 70, 70);
+}
+@media only screen and (min-width: 1600px) {
+  .trade-tab > * {
+    margin-bottom: 20px;
+  }
+  form .label {
+    font-size: 16px;
+  }
+  .trade-tab form input {
+    height: 35px;
+    font-size: 15px;
+  }
+  .trade-tab .p-rice,
+  .trade-tab .check-d {
+    font-size: 15px;
+  }
+  .trade-tab .buttons button {
+    height: 35px;
+    font-size: 16px;
+  }
+}

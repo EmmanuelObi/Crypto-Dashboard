@@ -1,0 +1,31 @@
+.order-book {
+  min-height: 50vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.order-book div.dropdown {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(247, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6px !important;
+}
+.order-book h1 {
+  font-size: 13px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 1600px) {
+  .order-book h1 {
+    font-size: 22px;
+  }
+  .order-book div.dropdown {
+    width: 100px;
+    height: 40px;
+    font-size: 10px !important;
+  }
+}

@@ -1,0 +1,38 @@
+.price-table {
+  width: 90%;
+  font-size: 12px;
+}
+.price-table thead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+}
+.price-table thead {
+  color: lightgray;
+  font-weight: normal;
+  font-size: 10px;
+}
+.price-table tbody {
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.price-table tbody div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 5px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .price-table thead th {
+    font-size: 18px;
+  }
+  .price-table tbody td {
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}

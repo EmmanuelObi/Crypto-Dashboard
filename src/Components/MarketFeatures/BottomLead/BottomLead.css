@@ -1,0 +1,21 @@
+.bottom-lead {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bottom-lead span {
+  margin-right: 20px;
+  font-size: 14px;
+}
+@media only screen and (min-width: 1600px) {
+  .bottom-lead span {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .bottom-lead span {
+    font-size: 11px;
+  }
+}

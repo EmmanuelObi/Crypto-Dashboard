@@ -1,0 +1,39 @@
+.M-activities {
+  min-height: 30vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.M-activities > * {
+  margin-bottom: 10px;
+}
+.M-activities h1 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.M-activities .p-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-size: 10px;
+}
+.M-activities .p-b span {
+  width: 30%;
+  background-color: rgb(247, 246, 246);
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1600px) {
+  .M-activities h1 {
+    font-size: 18px;
+  }
+  .M-activities .p-b {
+    font-size: 14px;
+  }
+}

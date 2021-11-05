@@ -1,0 +1,60 @@
+.order-table {
+  min-height: 30vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.green {
+  color: lightgreen;
+}
+.order-table h1 {
+  font-size: 13px;
+  font-weight: 700;
+}
+.price-table {
+  width: 90%;
+  font-size: 12px;
+}
+.price-table thead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+}
+.price-table thead {
+  color: lightgray;
+  font-weight: normal;
+  font-size: 10px;
+}
+.price-table tbody {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+}
+.price-table tbody div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 5px;
+}
+@media only screen and (min-width: 1600px) {
+  .order-table h1 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .order-table {
+    min-height: 41vh;
+  }
+}
+/* @media only screen and (max-width: 768px) {
+  .order-table {
+    
+  }
+} */

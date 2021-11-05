@@ -1,0 +1,39 @@
+.Pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.Pair .pair-name {
+  font-weight: 700;
+  font-size: 15px;
+}
+.Pair .pair-value {
+  font-size: 12px;
+  color: green;
+}
+@media only screen and (min-width: 1600px) {
+  .Pair .pair-name {
+    font-size: 18px;
+  }
+  .Pair .pair-value {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Pair .pair-name {
+    font-size: 12px;
+  }
+  .Pair .pair-value {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .Pair .pair-name {
+    font-size: 10px;
+  }
+  .Pair .pair-value {
+    font-size: 7px;
+  }
+}
